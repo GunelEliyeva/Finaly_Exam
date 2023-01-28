@@ -1,0 +1,36 @@
+.container{
+    .latest{
+        margin: 100px 0;
+        .latest-text{
+            margin-bottom: 50px;
+            p {
+                color: gray;
+              }
+      
+              h1 {
+                font-family: "Oswald", sans-serif;
+                font-size: 36px;
+              }
+              .xett {
+                width: 100px;
+                border-top: 2px solid #384aeb;
+                margin-left: 50px;
+              }
+        }
+
+        .latest-cards{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            column-gap: 20px;
+
+            .latest-card{
+                width: 400px;
+            }
+
+            .latest-texts{
+               padding-top: 30px;
+            }
+        }
+    }
+}

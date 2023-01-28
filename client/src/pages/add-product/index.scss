@@ -1,0 +1,39 @@
+.add{
+  
+    .container{
+        .add-box{
+            text-align: center;
+            padding: 100px 0;
+    
+            form{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                input{
+                    width: 400px;
+                    height: 40px;
+                    border: 2px solid #384aeb ;
+                }
+                .err{
+                    color: red;
+                    font-weight: bolder;
+                }
+
+                button{
+                    background-color: #384aeb;
+                    color: white;
+                    width: 200px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 30px;
+                    font-size: 16px;
+                    margin: 20px 0;
+            
+                    &:hover{
+                        background-color:#6b78f0;
+                    }
+                }
+            }
+        }
+    }
+}

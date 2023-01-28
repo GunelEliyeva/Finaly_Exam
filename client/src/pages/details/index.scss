@@ -1,0 +1,31 @@
+.detail{
+    padding: 150px 0;
+    .container{
+        .detail-box{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+.detail-text{
+    span{
+        color: gray;
+    }
+
+    button{
+        background-color: #5767f3;
+        color: white;
+        width: 200px;
+        height: 40px;
+        border: none;
+        border-radius: 30px;
+        font-size: 16px;
+        margin: 20px 0;
+
+        &:hover{
+            background-color:#6b78f0;
+        }
+    }
+}
+
+        }
+    }
+}

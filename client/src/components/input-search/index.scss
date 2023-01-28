@@ -1,0 +1,13 @@
+.container{
+    .search{
+        text-align: center;
+        input{
+            width: 600px;
+            height: 40px;
+            border: 1px solid gray;
+            color: gray;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+    }
+}
